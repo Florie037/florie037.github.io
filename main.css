@@ -1,0 +1,33 @@
+@keyframes myAnimation {
+    from {color:blue;}
+    to {color:chartreuse}
+}
+
+body {
+    background-color: red;
+    font-family:cursive;
+}
+
+h1 {
+    text-shadow: 2px 2px white;
+    animation-name: myAnimation;
+    animation-duration: 3s;
+    animation-direction:alternate-reverse;
+    animation-iteration-count: infinite;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    margin-left: 4em;
+}
+
+em {
+    color: aqua;
+    font-size: 2em;
+}
+
+a {
+    color: turquoise;
+    font-size: 2em;
+}
